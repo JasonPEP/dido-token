@@ -1,0 +1,56 @@
+# 依赖包
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量文件（包含私钥，绝对不能提交）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Hardhat 编译输出
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# 覆盖率报告
+coverage/
+coverage.json
+
+# Gas 报告
+gas-report.txt
+
+# 日志文件
+logs
+*.log
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+tmp/
+temp/
+
+# 部署记录（可选，包含合约地址）
+deployments/
+deployment-info.json
+
+# 安全审计报告（如果包含敏感信息）
+audit-reports/
